@@ -1,0 +1,6 @@
+<fieldset>
+  <label for="">NOMBRE SECCION: </label>
+  <input type="text" [value]="seccion.nombreSeccion" (input)="cambiarNombreSeccion($event)">
+  <button type="submit" (click)="guardarSeccion()"> GUARDAR </button>
+</fieldset>
+

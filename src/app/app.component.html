@@ -1,0 +1,7 @@
+<app-formulario-seccion (enviar)="guardarSeccion($event)"></app-formulario-seccion>
+<br>
+<app-formulario-alumno (enviarAlumno)="guardarAlumno($event)" [secciones]="listaSeccion"></app-formulario-alumno>
+<br>
+<app-lista-alumnos [alumnos]="listaAlumnos" ></app-lista-alumnos>
+<H1>HISTORIAL:</H1>
+<app-lista-historial [historiales]="listaHistorial"   ></app-lista-historial>
